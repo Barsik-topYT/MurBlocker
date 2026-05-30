@@ -1,19 +1,19 @@
-# MurBlocker 
+# MurBlocker
 
-**MurBlocker** — это простая и легковесная утилита на Python, предназначенная для быстрой блокировки нежелательных сайтов и программ на операционной системе Windows.
+**MurBlocker** is a simple and lightweight Python utility designed to quickly block unwanted websites and programs on the Windows operating system.
 
-## Как это работает?
-Программа автоматизирует внесение изменений в системный файл `hosts`. Блокировка происходит на уровне системы, что позволяет закрыть доступ к указанным сайтам во всех браузерах сразу, не нагружая компьютер лишними процессами.
+## How does it work?
+The program automates changes to the system's `hosts` file. Blocking occurs at the system level, allowing you to block access to specified websites in all browsers at once, without overloading your computer with unnecessary processes.
 
-## Особенности:
-* **100% Open Source**: Весь код открыт и прозрачен.
-* **Безопасность**: Никаких скрытых служб и фоновой активности.
-* **Скорость**: Изменения применяются мгновенно.
+## Features:
+* **Open Source**: All code is open.
+* **Security**: No hidden services or background activity.
+* **Speed**: Changes are applied instantly.
 
-## Требования и запуск:
-Для запуска исходного кода вам понадобятся:
+## Requirements and Runtime:
+To run the source code, you will need:
 * Python 3.x
-* Права администратора (так как Windows защищает файл `hosts` от обычных пользователей).
+* Administrator privileges (as Windows protects the `hosts` file from regular users).
 
 ---
-Разработано в рамках проекта [MurSoftware](https://mursoftware.netlify.app/).
+Developed as part of the [MurSoftware](https://mursoftware.netlify.app/) project.
